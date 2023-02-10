@@ -233,7 +233,7 @@ git push -u origin login
 ## গিট ব্রাঞ্চ marge  
 
 git checkout master
-git marge login
+git merge login
 
 
 
