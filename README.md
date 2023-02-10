@@ -214,6 +214,7 @@ git ব্রাঞ্চ :
 
 ***লগইন ফর্ম টি দেখতে এমন*** 
 ![App Screenshot](https://i.postimg.cc/xT1VVqbW/login.png)
+
 **এবার এই ফাইল কে  গিট অ্যাড করে commit করবো।***
 
 ```bash
@@ -229,7 +230,10 @@ git push -u origin login
 
 ![App Screenshot](https://i.postimg.cc/NftJ305R/git-branch.png)
 
+## গিট ব্রাঞ্চ marge  
 
+git checkout master
+git marge login
 
 
 
