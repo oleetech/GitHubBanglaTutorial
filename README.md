@@ -196,6 +196,39 @@ Our Web Site Like This
 https://oleetech.github.io/Oleeportfolio/
 ***click your repository***
 
+## Git Branch
+
+git ব্রাঞ্চ : 
+
+গিট ব্রাঞ্চ চেক করা : git branch 
+
+গিট ব্রাঞ্চ তৈরী করা : git branch login . login হলো ব্রাঞ্চ এর নাম 
+
+এক ব্রাঞ্চ  থেকে  অন্য ব্রাঞ্চ  এ যাওয়া : git checkout login
+
+আমরা এখন যা করবো তা login ব্রাঞ্চ নামে গিট এ যোগ হবে। 
+
+![App Screenshot](https://i.postimg.cc/nhjQhFDL/git.png)
+
+***নতুন একটি লগইন ফর্ম তৈরী করলাম login.html এর জন্য প্রয়োজনীয় css  login.css ফাইল তৈরী করে css ফোল্ডার এ রেখে login.html  এ linking করলাম*** 
+
+***লগইন ফর্ম টি দেখতে এমন*** 
+![App Screenshot](https://i.postimg.cc/xT1VVqbW/login.png)
+**এবার এই ফাইল কে  গিট অ্যাড করে commit করবো।***
+
+```bash
+git add .
+git commit -m 'login form '
+```
+এখন আমাদের এই ফাইলটি নতুন login ব্রাঞ্চ নামে গণ্য হবে। 
+
+***নতুন login ব্রাঞ্চ কে গিটহাব এ পুশ করি।*** 
+```bash
+git push -u origin login
+```
+
+![App Screenshot](https://i.postimg.cc/NftJ305R/git-branch.png)
+
 
 
 
