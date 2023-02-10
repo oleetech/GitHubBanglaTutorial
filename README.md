@@ -27,6 +27,10 @@
 4. এবার আমরা আমাদের ফোল্ডার এর মধ্যে গিট সেটআপ করবো। এই ফোল্ডার এ gitbash ওপেন করি। 
 ![App Screenshot](https://i.postimg.cc/kgZ3x18X/git3.png)
 
+### গিট্ কনফিগার করা : প্রথমে গিট্ কনফিগার করতে হবে।
+***প্রথমবার কম্পিউটার এ গিট নিয়ে কাজ করার জন্য গিট কনফিগার করে নিতে হয়।  এটা একবার করলেই হয়.***
+git config –global user.name “olee “
+git config –global user.email “olee.techs@gmail.com”
 
 5. নিচের তিনটি কমান্ড এক এক করে রান করি। 
 ```bash
