@@ -235,6 +235,26 @@ git push -u origin login
 git checkout master
 git merge login
 
+## Specific Commit Checkout
+To get the hash of a specific commit in Git, you can use the following command:
+```bash
+git log
+```
+
+You can also use the --pretty option to format the output and make it easier to read:
+```bash
+git log --pretty=oneline
+```
+
+To checkout a specific commit in Git, you can use the following command:
+```bash
+git checkout <commit-hash>
+```
+If you want to create a new branch from the specific commit, you can use the following command:
+```bash
+git checkout -b <new-branch-name> <commit-hash>
+```
+
 
 
 
