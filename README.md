@@ -263,6 +263,12 @@ git checkout -b <new-branch-name> <commit-hash>
 git pull origin quiz
 ```
 
+***Delete Branch***
+checkout from delete branch to any branch and delete branch .
+```bash
+git checkout master
+git branch --delete portfolio
+```
 
 
 
