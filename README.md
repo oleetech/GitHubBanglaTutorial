@@ -254,9 +254,14 @@ If you want to create a new branch from the specific commit, you can use the fol
 ```bash
 git checkout -b <new-branch-name> <commit-hash>
 ```
+### git pull  :
 
+***নির্দিষ্ট কোনো ব্রাঞ্চ রিমোট থেকে আপডেট করা।*** 
+মনেকরি একটি ব্রাঞ্চ নিয়ে কাজ করছি। গিটহাব রিপোসিটোরি তে ওই ব্রাঞ্চ এর আপডেট এসেছে আমরা শুধু আপডেট টি চাচ্ছি তাহলে মতো পুল করতে হবে।  এখানে quiz আমার ব্রাঞ্চ নাম যেটা আপডেট করতে চাচ্ছি। 
 
-
+```bash
+git pull origin quiz
+```
 
 
 
